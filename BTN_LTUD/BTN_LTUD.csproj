@@ -46,52 +46,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FRM_MENU.cs">
+    <Compile Include="Coneect_Database.cs" />
+    <Compile Include="FRM_BaoCaoChiTietVeLuot.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FRM_MENU.Designer.cs">
-      <DependentUpon>FRM_MENU.cs</DependentUpon>
+    <Compile Include="FRM_BaoCaoChiTietVeLuot.Designer.cs">
+      <DependentUpon>FRM_BaoCaoChiTietVeLuot.cs</DependentUpon>
     </Compile>
-    <Compile Include="FRM_MonthlySubscriptions.cs">
+    <Compile Include="FRM_BaoCaoDoanhThuThang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FRM_MonthlySubscriptions.Designer.cs">
-      <DependentUpon>FRM_MonthlySubscriptions.cs</DependentUpon>
+    <Compile Include="FRM_BaoCaoDoanhThuThang.Designer.cs">
+      <DependentUpon>FRM_BaoCaoDoanhThuThang.cs</DependentUpon>
     </Compile>
-    <Compile Include="FRM_ParkingLot.cs">
+    <Compile Include="FRM_MonthlySupcription.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FRM_ParkingLot.Designer.cs">
-      <DependentUpon>FRM_ParkingLot.cs</DependentUpon>
+    <Compile Include="FRM_MonthlySupcription.Designer.cs">
+      <DependentUpon>FRM_MonthlySupcription.cs</DependentUpon>
     </Compile>
-    <Compile Include="FRM_ParkingTickets.cs">
+    <Compile Include="FRM_VehicleEntry.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FRM_ParkingTickets.Designer.cs">
-      <DependentUpon>FRM_ParkingTickets.cs</DependentUpon>
+    <Compile Include="FRM_VehicleEntry.Designer.cs">
+      <DependentUpon>FRM_VehicleEntry.cs</DependentUpon>
     </Compile>
-    <Compile Include="FRM_Transactions.cs">
+    <Compile Include="FRM_VehicleExit.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FRM_Transactions.Designer.cs">
-      <DependentUpon>FRM_Transactions.cs</DependentUpon>
+    <Compile Include="FRM_VehicleExit.Designer.cs">
+      <DependentUpon>FRM_VehicleExit.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FRM_MENU.resx">
-      <DependentUpon>FRM_MENU.cs</DependentUpon>
+    <EmbeddedResource Include="FRM_BaoCaoChiTietVeLuot.resx">
+      <DependentUpon>FRM_BaoCaoChiTietVeLuot.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FRM_MonthlySubscriptions.resx">
-      <DependentUpon>FRM_MonthlySubscriptions.cs</DependentUpon>
+    <EmbeddedResource Include="FRM_BaoCaoDoanhThuThang.resx">
+      <DependentUpon>FRM_BaoCaoDoanhThuThang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FRM_ParkingLot.resx">
-      <DependentUpon>FRM_ParkingLot.cs</DependentUpon>
+    <EmbeddedResource Include="FRM_MonthlySupcription.resx">
+      <DependentUpon>FRM_MonthlySupcription.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FRM_ParkingTickets.resx">
-      <DependentUpon>FRM_ParkingTickets.cs</DependentUpon>
+    <EmbeddedResource Include="FRM_VehicleEntry.resx">
+      <DependentUpon>FRM_VehicleEntry.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FRM_Transactions.resx">
-      <DependentUpon>FRM_Transactions.cs</DependentUpon>
+    <EmbeddedResource Include="FRM_VehicleExit.resx">
+      <DependentUpon>FRM_VehicleExit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -114,6 +115,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
